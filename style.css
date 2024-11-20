@@ -33,7 +33,7 @@ body {
 /* 內容框 */
 .content-box {
     width: 500px;  /* 框框寬度 */
-    height: 450px; /* 框框高度 */
+    height: 500px; /* 框框高度 */
     background-color: white;
     border-radius: 15px; /* 自然圓角 */
     padding: 40px;
