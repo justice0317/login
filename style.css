@@ -41,7 +41,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    top: 15%;  /* 框框往下移，距離標題更多 */
+    top: 20%;  /* 框框往下移，距離標題更多 */
     left: 50%;
     transform: translateX(-50%);
 }
