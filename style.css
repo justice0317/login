@@ -33,17 +33,17 @@ body {
 /* 內容框 */
 .content-box {
     width: 500px;  /* 框框寬度 */
-    height: 500px; /* 框框高度 */
-    height: auto; /* 自動調整高度 */
-    max-height: 80vh; /* 最大高度為螢幕高度的 80% */
+    height: 450px; /* 框框高度 */
     background-color: white;
-    border-radius: 15px;
+    border-radius: 15px; /* 自然圓角 */
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin: 0 auto 20px auto; /* 居中並與大標題有間距 */
-    box-sizing: border-box;
+    position: absolute;
+    top: 25%;  /* 框框往下移，距離標題更多 */
+    left: 50%;
+    transform: translateX(-50%);
 }
 
 /* 登入標題 */
